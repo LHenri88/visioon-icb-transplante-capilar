@@ -50,19 +50,19 @@ export const CLINIC = {
       "id": "implante-capilar",
       "name": "Transplante FUE",
       "desc": "Técnica FUE com extração folicular individual.",
-      "img": "https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=800"
+      "img": "https://icbtransplantecapilar.com.br/uploads/resultado/resultado/2023/06/mpHRK5b1/icb-antes-01-depois_20.webp"
     },
     {
       "id": "implante-sobrancelha",
       "name": "Implante Sobrancelha",
       "desc": "Reconstrução natural com direção do fio respeitada.",
-      "img": "https://images.unsplash.com/photo-1542833290-d6d18f7f72f5?w=800"
+      "img": "https://icbtransplantecapilar.com.br/uploads/resultado/resultado/2023/06/LKtLKsA1/icb-antes-depois-03-depois_20.webp"
     },
     {
       "id": "tratamento-capilar",
       "name": "Tratamento Capilar",
       "desc": "Manutenção e fortalecimento pré e pós-transplante.",
-      "img": "https://images.unsplash.com/photo-1559599101-f09722fb4948?w=800"
+      "img": "https://icbtransplantecapilar.com.br/uploads/pagina/pagina/2023/06/SMAegoq6goWSYPhM/tudo-que-voce-precisa-saber-sobre-o-processo-de-crescimento-capilar-listagem-copiar_20.webp"
     }
   ],
   "differentials": [
@@ -128,6 +128,45 @@ export const CLINIC = {
   "financing": {
     "title": "Parcelamento facilitado",
     "sub": "Avaliação gratuita · parcelamento próprio em até 18x sem juros · cartões em até 12x"
+  },
+  "images": {
+    "hero": "https://icbtransplantecapilar.com.br/uploads/resultado/resultado/2023/06/IWIQIKC5/icb-antes-depois-04-depois_20.webp",
+    "procedures": {
+      "implante-capilar": "https://icbtransplantecapilar.com.br/uploads/resultado/resultado/2023/06/mpHRK5b1/icb-antes-01-depois_20.webp",
+      "implante-sobrancelha": "https://icbtransplantecapilar.com.br/uploads/resultado/resultado/2023/06/LKtLKsA1/icb-antes-depois-03-depois_20.webp",
+      "tratamento-capilar": "https://icbtransplantecapilar.com.br/uploads/pagina/pagina/2023/06/SMAegoq6goWSYPhM/tudo-que-voce-precisa-saber-sobre-o-processo-de-crescimento-capilar-listagem-copiar_20.webp"
+    },
+    "before_after": [
+      [
+        "https://icbtransplantecapilar.com.br/uploads/resultado/resultado/2023/06/IWIQIKC5/icb-antes-depois-04-antes_20.webp",
+        "https://icbtransplantecapilar.com.br/uploads/resultado/resultado/2023/06/IWIQIKC5/icb-antes-depois-04-depois_20.webp"
+      ],
+      [
+        "https://icbtransplantecapilar.com.br/uploads/resultado/resultado/2023/06/mpHRK5b1/icb-antes-01-antes_20.webp",
+        "https://icbtransplantecapilar.com.br/uploads/resultado/resultado/2023/06/mpHRK5b1/icb-antes-01-depois_20.webp"
+      ],
+      [
+        "https://icbtransplantecapilar.com.br/uploads/resultado/resultado/2023/06/LKtLKsA1/icb-antes-depois-03-antes_20.webp",
+        "https://icbtransplantecapilar.com.br/uploads/resultado/resultado/2023/06/LKtLKsA1/icb-antes-depois-03-depois_20.webp"
+      ],
+      [
+        "https://icbtransplantecapilar.com.br/uploads/resultado/resultado/2023/06/XxRToU9j/icb-antes-depois-02-antes_20.webp",
+        "https://icbtransplantecapilar.com.br/uploads/resultado/resultado/2023/06/XxRToU9j/icb-antes-depois-02-depois_20.webp"
+      ]
+    ],
+    "units_thumbs": {
+      "São Paulo · Itaim Bibi": "https://icbtransplantecapilar.com.br/uploads/pagina/pagina/2023/05/IojbDVEmOe6Avquj/icb-unidade-sp-itaim-bibi-copy_20.webp",
+      "Belo Horizonte": "https://icbtransplantecapilar.com.br/uploads/pagina/pagina/2023/05/zCo4ocRHFKWQvTpG/icb-unidade-mg-belo-horizonte-copy_20.webp",
+      "Brasília": "https://icbtransplantecapilar.com.br/uploads/pagina/pagina/2023/05/PnbRp2uENv8BcYMT/icb-unidade-df-brasilia-copy_20.webp",
+      "Campinas": "https://icbtransplantecapilar.com.br/uploads/pagina/pagina/2023/05/JEvTHN2f4CR0TjEj/icb-transplantecapilar-campinas_20.webp",
+      "Curitiba": "https://icbtransplantecapilar.com.br/uploads/pagina/pagina/2023/05/5UAy4v9yxOZVeHF7/icb-unidade-pr-curitiba-copy_20.webp",
+      "Florianópolis": "https://icbtransplantecapilar.com.br/uploads/pagina/pagina/2023/05/b2vEG40Sm64wuDjV/icb-unidade-sc-florianopolis-copy_20.webp"
+    },
+    "team": [
+      "https://icbtransplantecapilar.com.br/uploads/pagina/elemento/campo/2023/06/du9vqE567PObC1Wo/dr-filipe-basile_20.webp",
+      "https://icbtransplantecapilar.com.br/uploads/pagina/elemento/campo/2023/06/faDmIZ0ycBp1QmaJ/dr-arthur-basile_20.webp",
+      "https://icbtransplantecapilar.com.br/uploads/pagina/elemento/campo/2023/06/C8LNM6RuSej4qYju/dr-leonardo-almeida-160x150-copiar_20.webp"
+    ]
   }
 } as const;
 export type ClinicConfig = typeof CLINIC;
